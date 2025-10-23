@@ -23,6 +23,8 @@
 # misc
 .DS_Store
 *.pem
+ERROR_MONITORING_TEST.md
+test-error-monitoring.sh
 
 # debug
 npm-debug.log*

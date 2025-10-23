@@ -1,10 +1,10 @@
 import ErrorBoundary from '@/components/ErrorBoundary';
-import ErrorProneComponent from '@/components/ErrorProneComponent';
+import ErrorTrigger from '@/components/ErrorTrigger';
 
 const Home: React.FC = () => {
   return (
     <ErrorBoundary>
-      <ErrorProneComponent />
+      <ErrorTrigger />
     </ErrorBoundary>
   );
 };
